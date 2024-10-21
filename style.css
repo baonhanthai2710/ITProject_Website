@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    color: black;
+}
+
+.navbar-brand:hover{
+    color:black;
+}
+
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.search{
+    text-align: center;
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid #31473A;
+}
+
+.btnSearch{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: #31473A;
+    color: #FFFF;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+.main{
+    background: url(./img/main1.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+.main h1{
+    text-align: center;
+    background-color: #FFFF;
+    border-radius: 60px;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.btnmain{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: #31473A;
+    color: #FFFF;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.h1{
+    font-weight: 700;
+}
+
+.btnmain:hover{
+    background-color: #537f66;
+    transition: 0.5s;
+}
+
+.card:hover{
+    box-shadow: -1px 0px 26px 5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 0px 26px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 26px 5px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
