@@ -18,12 +18,24 @@ app.engine('hbs', engine({
     extname: 'hbs',
 }));
 
-app.get('/', (req, res) => {
+app.get('/home', (req, res) => {
     res.render('home');
 });
 
 app.get('/contact', (req, res) => {
     res.render('contact');
+});
+
+app.get('/productsManagement', (req, res) => {
+    res.render('productsManagement');
+});
+
+app.get('/orderManagement', (req, res) => {
+    res.render('productsManagement');
+});
+
+app.get('/customerManagement', (req, res) => {
+    res.render('customerManagement');
 });
 
 // Start the server
